@@ -1,0 +1,24 @@
+--- a/arch/arm64/boot/dts/qcom/Makefile
++++ b/arch/arm64/boot/dts/qcom/Makefile
+@@ -39,12 +39,21 @@ dtb-$(CONFIG_ARCH_QCOM) += \
+ 				qcom-ipq5018-db-mp03.3-c2.dtb \
+ 				qcom-ipq5018-db-mp03.3-c3.dtb \
+ 				qcom-ipq5018-tb-mp04.dtb \
++				qcom-ipq6018-ax18.dtb \
+ 				qcom-ipq6018-cp01-c1.dtb \
+ 				qcom-ipq6018-cp01-c2.dtb \
+ 				qcom-ipq6018-cp01-c3.dtb \
+ 				qcom-ipq6018-cp01-c4.dtb \
+ 				qcom-ipq6018-cp02-c1.dtb \
+ 				qcom-ipq6018-cp03-c1.dtb \
++				qcom-ipq6018-gl-ax1800.dtb \
++				qcom-ipq6018-gl-axt1800.dtb \
++				qcom-ipq6018-mr7350.dtb \
++				qcom-ipq6018-qihoo-v6.dtb \
++				qcom-ipq6018-ax5.dtb
++				qcom-ipq6018-rm1800.dtb \
++				qcom-ipq6018-wf-hr6001.dtb \
++				qcom-ipq6018-zn-m2.dtb \
+ 				qcom-ipq807x-hk01.dtb \
+ 				qcom-ipq807x-hk01.c2.dtb \
+ 				qcom-ipq807x-hk01.c3.dtb \
