@@ -29,6 +29,9 @@ huasifei,wf-hr6001)
 xiaomi,rm1800)
 	ucidef_set_led_netdev "internet" "Internet" "${boardname}:blue:network" "eth3"
 	;;
+redmi,ax5)
+	ucidef_set_led_netdev "internet" "Internet" "${boardname}:blue:network" "eth3"
+	;;
 *)
 	;;
 esac
