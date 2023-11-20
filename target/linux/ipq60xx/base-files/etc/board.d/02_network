@@ -30,6 +30,9 @@ ipq60xx_setup_interfaces()
 	xiaomi,rm1800)
 		ucidef_set_interfaces_lan_wan "eth0 eth1 eth2" "eth3"
 		;;
+	redmi,ax5)
+		ucidef_set_interfaces_lan_wan "eth0 eth1 eth2" "eth3"
+		;;
 	*)
 		echo "Unsupported hardware. Network interfaces not initialized"
 		;;
